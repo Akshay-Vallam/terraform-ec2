@@ -1,11 +1,11 @@
 variable "aws_region" {
   description = "The AWS region in which to launch the instance"
-  default     = "us-east-1"  // Change this to your preferred default region
+  default     = "ap-southeast-2a"  // Change this to your preferred default region
 }
 
 variable "instance_ami" {
   description = "The AMI ID for the EC2 instance"
-  default     = "ami-XXXXXXXXXXXXXXXXX"  // Update with your desired AMI ID
+  default     = "ami-0df4b2961410d4cff"  // Update with your desired AMI ID
 }
 
 variable "instance_type" {
