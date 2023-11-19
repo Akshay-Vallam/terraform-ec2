@@ -1,6 +1,6 @@
 variable "aws_region" {
   description = "The AWS region in which to launch the instance"
-  default     = "ap-southeast-2a"  // Change this to your preferred default region
+  default     = "ap-southeast-2"  // Change this to your preferred default region
 }
 
 variable "instance_ami" {
